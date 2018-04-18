@@ -1,0 +1,1 @@
+def triangle(n):   count = 1   while count <= n:        if count > 0:           print ('*' * count)        count = count + 1 n = int(input('how many * do you want for the legs?'))if triangle(n):    print('')      

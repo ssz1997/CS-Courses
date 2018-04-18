@@ -1,0 +1,1 @@
+def Pythagoren_triple(a,b,c):    if (a * a + b * b == c * c):        return True    return Falsea = int(input('how long is one of the legs?'))b = int(input('how long is the other leg?'))c = int(input('how long is the hypotenuse?'))if Pythagoren_triple(a,b,c):    print ('Yeah! It is a Pythagorean triple!')else:    print ('Oops. It is not a Pythagorean triple.')

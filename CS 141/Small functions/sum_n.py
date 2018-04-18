@@ -1,0 +1,1 @@
+def sum_0(n):    sum_0 = 0    current = 1    while current <= n:        sum_0 = sum_0 + current        current = current + 1    return sum_0n = int(input('What is the number?'))a = sum_0(n)print ('The sum of the first', n, 'integers is', a)

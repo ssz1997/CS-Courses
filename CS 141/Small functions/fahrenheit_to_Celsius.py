@@ -1,0 +1,1 @@
+def f_to_c(tem):    return (tem-32) * 5 / 9    tem = int(input('What is your temperature?'))f_to_c(tem)if (tem-32) * 5 / 9 > -273.15:    print ('Your temperature is equal to', f_to_c(tem), 'degrees Celsius.')    else:    print ('Your temperature is too low be reached!')
