@@ -1,0 +1,99 @@
+
+## CS 304 session 2
+## Shouzhuo Sun
+
+
+
+
+.pos 0
+Main:
+    irmovl Array, %edi              # put array at edi
+    irmovl $2, %ecx                 # ecx = 2 = base  
+BaseLoop:
+    irmovl $0xffffffff, %ebx        # ebx = ffffffff
+    rmmovl %ebx, (%edi)             # print the first line of f
+    irmovl $4, %ebx                 # ebx = 4
+    addl %ebx, %edi                 # increase array pointer address
+    irmovl $1, %edx                 # edx = 1 = power
+PowerLoop:
+    irmovl Stack, %ebp              # put ebp to the stack
+    rrmovl %ebp, %esp               # put esp to the stack
+    pushl %edx                      # push power to the stack
+    pushl %ecx                      # push base to the stack
+    call Rpow                       # call Rpow
+    popl %esi                       # esi = base
+    popl %edx                       # edx = power
+    rmmovl %eax, (%edi)             # array[edi] = %eax
+    irmovl $4, %ebx                 # ebx = 4
+    addl %ebx, %edi                 # increase array pointer address
+    irmovl $1, %ebx                 # ebx = 1
+    addl %ebx, %edx                 # edx ++    
+    irmovl $8, %ebx                 # ebx = 8
+    subl %edx, %ebx                 # ebx - edx
+    jge PowerLoop                   # if ebx - edx >= 0, loop power
+    
+    irmovl $1, %ebx                 # ebx = 1
+    addl %ebx, %ecx                 # ecx++ = base++
+    irmovl $5, %ebx                 # ebx = 5
+    subl %ecx, %ebx                 # ebx - ecx
+    jge BaseLoop                    # if ebx - ecx >= 0, loop base
+    irmovl $0xffffffff, %ebx        # ebx = ffffffff
+    rmmovl %ebx, (%edi)             # print the last line of f
+    
+    halt
+    
+    
+    
+    
+    
+Rmult:
+    pushl %ebp                      # push return address
+    rrmovl %esp, %ebp               # move ebp into the function
+    mrmovl 8(%ebp), %eax            # eax = i
+    mrmovl 12(%ebp), %edx           # edx = j
+    irmovl $1, %ebx                 # ebx = 1
+    subl %ebx, %edx                 # edx -= 1
+    pushl %edx                      # push edx (j) to the stack
+    pushl %eax                      # push eax (i) to the stack
+    je RmultBase                    # if ebx - edx = 0, go to the base case
+    call Rmult                      # recursive call
+    addl %ebx, %eax                 # eax = eax + ebx = eax + i
+RmultBase:
+    popl %ebx                       # ebx = i
+    popl %edx                       # edx = j
+    popl %ebp                       # decrese ebp to jump out
+    ret                             # return
+
+
+Rpow:
+    pushl %ebp                      # push return address
+    rrmovl %esp, %ebp               # move ebp into the function
+    mrmovl 8(%ebp), %eax            # eax = base
+    mrmovl 12(%ebp), %edx           # edx = power
+    irmovl $1, %ebx                 # ebx = 1
+    subl %ebx, %edx                 # edx -= 1
+    pushl %edx                      # push edx (power) to the stack
+    pushl %ecx                      # push ecx (base) to the stack
+    je RpowBase                     # if euqal 0, go to the base case
+    call Rpow                       # recursive call
+    pushl %ecx                      # push ebx (base) to the stack 
+    pushl %eax                      # push eax to the stack
+    call Rmult                      # call Rmult
+    popl %esi                       # pop parameters
+    popl %esi                       # pop parameters
+    
+RpowBase:
+    popl %ebx                       # ebx = base
+    popl %edx                       # edx = power
+    popl %ebp                       # decrese ebp to jump out
+    ret                             # return
+    
+
+    
+.pos 0x200
+.align 4
+Array:
+    
+.pos 0x1000
+Stack:
+   
