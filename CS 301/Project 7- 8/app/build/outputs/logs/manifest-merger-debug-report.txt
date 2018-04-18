@@ -1,0 +1,200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3b5ee4d301fdde1fe2068901e1122f9f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b870335155f46c5341b56abc7c91d519/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/45fc50c9442d454ef0788fa6498da8a7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ad72c2af5c9e5522b0cbab0d2f23cc5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a193d0c14fc390926bb809ab33ebcbaa/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/29b269a392aee48e0409c1f2823dbc25/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d25efdd5745e8e1b77a046b0e056f9bc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/741dda6646d04595c87c5f8a5e9a33e2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f2151357cf40299a8264826bf761d9c7/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a5536afc90ba9f62043f872eb0f357aa/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:3:5-83
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:5:22-63
+application
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:7:5-50:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3b5ee4d301fdde1fe2068901e1122f9f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3b5ee4d301fdde1fe2068901e1122f9f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b870335155f46c5341b56abc7c91d519/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b870335155f46c5341b56abc7c91d519/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/45fc50c9442d454ef0788fa6498da8a7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/45fc50c9442d454ef0788fa6498da8a7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ad72c2af5c9e5522b0cbab0d2f23cc5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ad72c2af5c9e5522b0cbab0d2f23cc5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a193d0c14fc390926bb809ab33ebcbaa/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a193d0c14fc390926bb809ab33ebcbaa/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/29b269a392aee48e0409c1f2823dbc25/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/29b269a392aee48e0409c1f2823dbc25/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d25efdd5745e8e1b77a046b0e056f9bc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d25efdd5745e8e1b77a046b0e056f9bc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/741dda6646d04595c87c5f8a5e9a33e2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/741dda6646d04595c87c5f8a5e9a33e2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f2151357cf40299a8264826bf761d9c7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f2151357cf40299a8264826bf761d9c7/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a5536afc90ba9f62043f872eb0f357aa/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a5536afc90ba9f62043f872eb0f357aa/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:13:9-40
+activity#shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.AMazeActivity
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:screenOrientation
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:16:13-55
+	android:configChanges
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:15:13-74
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:14:19-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:20:27-74
+activity#shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.ManualDriverActivity
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:23:9-29:20
+	android:screenOrientation
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:25:13-55
+	android:configChanges
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:23:19-58
+intent-filter#android.intent.category.LAUNCHER
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:26:13-28:29
+activity#shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.PlayActivity
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:30:9-36:20
+	android:screenOrientation
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:32:13-55
+	android:configChanges
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:31:13-74
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:30:19-50
+activity#shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.FinishSucceedActivity
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:37:9-39:57
+	android:screenOrientation
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:39:13-55
+	android:configChanges
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:38:13-74
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:37:19-59
+activity#shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.FinishFailureActivity
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:40:9-42:57
+	android:screenOrientation
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:42:13-55
+	android:configChanges
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:41:13-74
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:40:19-59
+activity#shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.GeneratingActivity
+ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:43:9-49:20
+	android:screenOrientation
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:45:13-55
+	android:configChanges
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:44:13-74
+	android:name
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml:43:19-56
+uses-sdk
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3b5ee4d301fdde1fe2068901e1122f9f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3b5ee4d301fdde1fe2068901e1122f9f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b870335155f46c5341b56abc7c91d519/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b870335155f46c5341b56abc7c91d519/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/45fc50c9442d454ef0788fa6498da8a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/45fc50c9442d454ef0788fa6498da8a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ad72c2af5c9e5522b0cbab0d2f23cc5/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ad72c2af5c9e5522b0cbab0d2f23cc5/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a193d0c14fc390926bb809ab33ebcbaa/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a193d0c14fc390926bb809ab33ebcbaa/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/29b269a392aee48e0409c1f2823dbc25/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/29b269a392aee48e0409c1f2823dbc25/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d25efdd5745e8e1b77a046b0e056f9bc/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d25efdd5745e8e1b77a046b0e056f9bc/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/741dda6646d04595c87c5f8a5e9a33e2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/741dda6646d04595c87c5f8a5e9a33e2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f2151357cf40299a8264826bf761d9c7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f2151357cf40299a8264826bf761d9c7/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a5536afc90ba9f62043f872eb0f357aa/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a5536afc90ba9f62043f872eb0f357aa/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ShawnSun/Desktop/CS/CS 301/release7.1/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b870335155f46c5341b56abc7c91d519/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b870335155f46c5341b56abc7c91d519/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/45fc50c9442d454ef0788fa6498da8a7/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/45fc50c9442d454ef0788fa6498da8a7/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ad72c2af5c9e5522b0cbab0d2f23cc5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ad72c2af5c9e5522b0cbab0d2f23cc5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a193d0c14fc390926bb809ab33ebcbaa/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a193d0c14fc390926bb809ab33ebcbaa/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/29b269a392aee48e0409c1f2823dbc25/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/29b269a392aee48e0409c1f2823dbc25/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d25efdd5745e8e1b77a046b0e056f9bc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d25efdd5745e8e1b77a046b0e056f9bc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/741dda6646d04595c87c5f8a5e9a33e2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/741dda6646d04595c87c5f8a5e9a33e2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f2151357cf40299a8264826bf761d9c7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f2151357cf40299a8264826bf761d9c7/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c651906a076ad519abb5469e4b7ef97e/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a5536afc90ba9f62043f872eb0f357aa/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a5536afc90ba9f62043f872eb0f357aa/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ShawnSun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a5536afc90ba9f62043f872eb0f357aa/AndroidManifest.xml:26:13-58
