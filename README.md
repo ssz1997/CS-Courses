@@ -1,3 +1,3 @@
 # CS-Courses
 
-# Codes from cs courses in college
+Codes from cs courses in college
