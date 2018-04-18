@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.FinishSucceedActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="320dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="50dp"
+        android:text="You Made It!"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="161dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="400dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="20dp"
+        android:text="Congrutulaions!"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="139dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="43dp"
+        android:text="Energy Consumption:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="104dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="21dp"
+        android:text="Path Length:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="84dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="53dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="84dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="28dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+</android.support.constraint.ConstraintLayout>

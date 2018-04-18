@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.ManualDriverActivity">
+
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="467dp"
+        android:text="ToggleButton"
+        android:textOff="map"
+        android:textOn="nomap"
+        android:onClick="wholemap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButton6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton6"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="showSolution"
+        android:text="ToggleButton"
+        android:textOff="solution"
+        android:textOn="nosolution"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButton7"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton7"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="467dp"
+        android:text="ToggleButton"
+        android:textOff="visiblewall"
+        android:textOn="novisiblewall"
+        android:onClick="map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="168dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="418dp"
+        android:background="@color/colorAccent"
+        android:onClick="rotateBackward"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton6"
+        app:layout_constraintVertical_bias="0.761"
+        app:srcCompat="@drawable/ic_arrow_downward_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        android:onClick="rotateLeft"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mazePanel"
+        app:layout_constraintVertical_bias="0.875"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="120dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="43dp"
+        android:background="@color/colorAccent"
+        android:onClick="rotateRight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/mazePanel"
+        app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginStart="168dp"
+        android:background="@color/colorAccent"
+        android:onClick="moveForward"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_arrow_upward_black_24dp" />
+
+    <shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.falstad.MazePanel
+
+        android:id="@+id/mazePanel"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+
+
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton4"
+        app:text="test test"
+        app:textColor="#FF00FF"
+        app:textSize="20" />
+    <ImageButton
+        android:id="@+id/playMusicButton"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/pauseMusicButton"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_media_pause" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="47dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/mazePanel"
+        app:srcCompat="@android:drawable/ic_menu_compass" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="132dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton7" />
+
+</android.support.constraint.ConstraintLayout>

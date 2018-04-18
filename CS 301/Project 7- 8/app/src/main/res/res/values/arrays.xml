@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Backtracking</item>
+        <item>Prim</item>
+        <item>Eller</item>
+    </string-array>
+    <string-array name="spinnerItems2" >
+        <item>Manual</item>
+        <item>WallFollower</item>
+        <item>Wizard</item>
+        <item>Pledge</item>
+        <item>Explorer</item>
+    </string-array>
+</resources>

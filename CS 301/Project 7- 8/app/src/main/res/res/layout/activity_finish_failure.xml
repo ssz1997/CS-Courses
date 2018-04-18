@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.FinishFailureActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ahaha_losing_image" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="86dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="371dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="101dp"
+        android:text="Ooops..."
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="143dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="184dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginStart="50dp"
+        android:text="Energy Consumption:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="88dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="188dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginStart="60dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="121dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="171dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Path Length:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="63dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="173dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

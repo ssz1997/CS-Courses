@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/activity_amaze"
+    tools:context="shouzhuosunandyingxumu.cs301.cs.wm.edu.amazebyshouzhuosunandyingxumu.ui.AMazeActivity">
+
+    <SeekBar
+        android:id="@+id/level"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="288dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="45dp"
+        android:max="15"
+        android:progress="0"
+        app:layout_constraintBottom_toTopOf="@+id/revisit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode" />
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:text="Level"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/level"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playMusicButton" />
+
+    <Spinner
+        android:id="@+id/map"
+        android:layout_width="208dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/colorAccent"
+        android:entries="@array/spinnerItems"
+        android:popupBackground="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Spinner
+        android:id="@+id/mode"
+        android:layout_width="208dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/colorAccent"
+        android:entries="@array/spinnerItems2"
+        android:popupBackground="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <Button
+        android:id="@+id/revisit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:background="@color/colorAccent"
+        android:text="Revisit"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/explore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level" />
+
+    <Button
+        android:id="@+id/explore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="79dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/colorAccent"
+        android:text="Explore"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/revisit" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="70dp"
+        android:textColor="@android:color/white"
+        android:text="Maze"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Map  "
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/map"
+        app:layout_constraintStart_toEndOf="@+id/playMusicButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Mode"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/mode"
+        app:layout_constraintStart_toEndOf="@+id/playMusicButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="287dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="45dp"
+        android:gravity="left"
+        android:text="       0     1    2    3    4     5    6    7    8    9   10  11  12  13 14 15"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/colorAccent"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_maze_icon" />
+
+    <ImageButton
+        android:id="@+id/playMusicButton"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="164dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:visibility="invisible"
+        android:id="@+id/pauseMusicButton"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="164dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_media_pause" />
+
+</android.support.constraint.ConstraintLayout>
